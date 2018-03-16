@@ -36,7 +36,7 @@ def test_move(my_history, their_history, my_score, their_score, result):
     '''
     real_result = move(my_history, their_history, my_score, their_score)
     if real_result == result:
-        return True
+       return True
     else:
         print("move(" +
             ", ".join(["'"+my_history+"'", "'"+their_history+"'",
